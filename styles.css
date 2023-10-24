@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#contenido {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+```
+
+En este archivo CSS:
+
+- **`body`**: Establece el tipo de fuente y elimina márgenes y rellenos predeterminados del cuerpo del documento.
+- **`header`**: Aplica un fondo verde (#4CAF50) al encabezado y establece el color del texto a blanco.
+- **`nav`**: Aplica un fondo oscuro (#333) al área de navegación y establece el color del texto a blanco. Los elementos de la lista están alineados en el centro.
+- **`#contenido`**: Agrega un relleno al área de contenido para que el texto no esté pegado a los bordes.
+- **`footer`**: Establece un fondo verde (#4CAF50) al pie de página, coloca el texto en blanco y lo fija en la parte inferior de la página.
+
+Este es solo un ejemplo básico. Puedes personalizar los colores, las fuentes y otros estilos según las preferencias de diseño de tus alumnos. Para aplicar este estilo, asegúrate de que el archivo CSS esté en la misma carpeta que tus archivos HTML y Markdown, y de que esté enlazado correctamente en tu archivo `index.html`. ¡Espero que esto te sea útil! Si tienes más preguntas o necesitas más ayuda, no dudes en decírmelo.
